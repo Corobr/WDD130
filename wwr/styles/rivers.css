@@ -1,0 +1,21 @@
+.river1-card, .river2-card, .river3-card {
+    margin: 200px 0;
+    text-align: center;
+}
+.river1-card {
+    grid-column: 2 / 4;
+    grid-row: 2 / 3;
+}
+.river2-card {
+    grid-column: 5 / 7;
+    grid-row: 2 / 3;
+}
+.river3-card {
+    grid-column: 8 / 10;
+    grid-row: 2 / 3;
+}
+.river1-card p, .river2-card p, .river3-card p {
+    color: #323031;
+    font-size: 0.8em;
+    padding: 15px;
+}
